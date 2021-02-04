@@ -15,7 +15,7 @@ part of dart.ffi;
 /// "@Int32()" for "int").
 ///
 /// Instances of a subclass of [Struct] have reference semantics and are backed
-/// by native memory. The may allocated via allocation or loaded from a
+/// by native memory. They may allocated via allocation or loaded from a
 /// [Pointer], but not by a generative constructor.
 abstract class Struct extends NativeType {
   final Pointer<Struct> _addressOf;
